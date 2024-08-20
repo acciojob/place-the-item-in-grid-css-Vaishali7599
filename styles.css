@@ -6,23 +6,21 @@
 	grid-template-areas: 
 		"row1 row2"
 	    "row3 row4";
-	grid-template-columns: repeat(2, 200px);
-	grid-template-rows: 100px 100px;
+	grid-template-columns: repeat(2, 100px);
+	grid-template-rows: repeat(2, 100px);
 	
 }
 .item-1{
 	grid-area: row1;
-	background-color: blue;
 }
 .item-2{
 	grid-area: row2;
-	background-color: red;
 }
 .item-3{
 	grid-area: row3;
-	background-color: yellow;
+	
 }
 .item-4{
 	grid-area: row4;
-	background-color: green;
+
 }
